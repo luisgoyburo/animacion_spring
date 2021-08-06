@@ -25,42 +25,116 @@ export default function Home() {
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
-            href="https://nextjs.org/docs"
+            href="/inheritedprops"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
+            <h3 className="text-2xl font-bold">Inherited props</h3>
             <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
+              Loop inherited props
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn"
+            href="/loopreverse"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+            <h3 className="text-2xl font-bold">Loop Reverse</h3>
             <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+              Loop reverse
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="/loopfunction"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+            <h3 className="text-2xl font-bold">Loop Function</h3>
             <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
+              A loop object
             </p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/loopprop"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+            <h3 className="text-2xl font-bold">React Spring Loop</h3>
             <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Loop Prop
+            </p>
+          </a>
+
+          <a
+            href="/cancel"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Cancel</h3>
+            <p className="mt-4 text-xl">
+              Cancel animate
+            </p>
+          </a>
+
+          <a
+            href="/trans_rot_scal"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Transformacion con Configs</h3>
+            <p className="mt-4 text-xl">
+              Rotacion X, Y y escala
+            </p>
+          </a>
+          <a
+            href="/trans_rot_scal_presets"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Transformacion con Configs y Presets</h3>
+            <p className="mt-4 text-xl">
+              Rotacion X, Y y escala, y PRESETS
+            </p>
+          </a>
+          <a
+            href="/usechain"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Uso de UseChain</h3>
+            <p className="mt-4 text-xl">
+              UseChain permite hacer dos animaciones continuas y entrelazadas
+            </p>
+          </a>
+          <a
+            href="/nav"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Adaptacion para Nav</h3>
+            <p className="mt-4 text-xl">
+              Adaptación para Navegador
+            </p>
+          </a>
+          <a
+            href="/usesprings"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Springs</h3>
+            <p className="mt-4 text-xl">
+              loop de listas
+            </p>
+          </a>
+          <a
+            href="/usesprings_01"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Transition</h3>
+            <p className="mt-4 text-xl">
+              Transition
+            </p>
+          </a>
+          <a
+            href="/useEffect_01"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Use Effect</h3>
+            <p className="mt-4 text-xl">
+              Uso de UseEffect para retrasar animaciones
             </p>
           </a>
         </div>
